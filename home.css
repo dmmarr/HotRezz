@@ -1,0 +1,46 @@
+/* font-family: 'Lexend Exa', sans-serif;
+font-family: 'Beth Ellen', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Lacquer', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Covered By Your Grace', cursive; */
+body {
+    /* background: url("./assets/images/food2.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 125%;  */
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%); */ 
+}
+#images{
+    -webkit-filter: grayscale(30%); 
+    filter: grayscale(60%);
+    background-size: 125%; 
+    background-attachment: fixed;
+    width: 1025px ; 
+}
+.button {     
+    background-color: Transparent;
+    /* background-repeat:no-repeat; */
+    border: black;
+    /* cursor:pointer; */
+    /* overflow: hidden;         */
+}
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .centered2 {
+    position: absolute;
+    top: 63%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+  }
